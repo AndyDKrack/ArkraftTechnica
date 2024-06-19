@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>GoodWEB Solutions - Responsive HTML5 Landing Page Template</title>  
+    <title>Arkraft Technica</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -57,10 +57,13 @@
 				<div class="col-md-6 col-sm-6">
 					<div class="left-top">
 						<div class="email-box">
-							<a href="info@arkraft.co.ke"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@arkraft.co.ke</a>
+							<a href="mailto: info@arkraft.co.ke" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@arkraft.co.ke</a>
+						</div>
+                        <div class="phone-box">
+							<a href="tel:254790955333" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i> +254 790 955333</a>
 						</div>
 						<div class="phone-box">
-							<a href="tel:245751055441"><i class="fa fa-phone" aria-hidden="true"></i> +254 751 055441</a>
+							<a href="https://wa.me/254751055441" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> +254 751 055441</a>
 						</div>
 					</div>
 				</div>
@@ -68,9 +71,9 @@
 					<div class="right-top">
 						<div class="social-box">
 							<ul>
-								<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/arkraft-limited/?viewAsMember=true" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
 								
 							<ul>
@@ -575,8 +578,7 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">                   
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">GoodWEB</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+                    <p class="footer-company-name" style="color: azure;">&copy; <span id="currentYear"></span> Arkraft Technica Limited. All rights reserved.</p>
                 </div>
 
                 
@@ -592,6 +594,6 @@
     <script src="js/custom.js"></script>
     <script src="js/portfolio.js"></script>
     <script src="js/hoverdir.js"></script>    
-
+    <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
 </body>
 </html>

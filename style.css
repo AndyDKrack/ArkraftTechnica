@@ -2042,7 +2042,7 @@ select.mobile-device {
 }
 
 .footer {
-    padding: 90px 0 80px !important;
+    padding: 45px 0 40px !important;
     color: #1c1c1c;
     background-color: #ffffff;
 }
@@ -2135,7 +2135,7 @@ select.mobile-device {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    padding: 50px 60px;
+    padding: 12px 15px;
     overflow: hidden;
 }
 
