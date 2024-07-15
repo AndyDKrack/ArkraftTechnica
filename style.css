@@ -48,7 +48,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999;
+    color: #1d1c1c;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     line-height: 1.80857;
@@ -180,9 +180,13 @@ a,
 .lead {
     font-size: 18px;
     line-height: 30px;
-    color: #767676;
+    color: #000000;
     margin: 0;
     padding: 0;
+}
+
+.lead-p {
+    color: black;
 }
 
 blockquote {
@@ -518,20 +522,13 @@ li.social-links a {
     background-size: cover;
 }
 
-.slider-bg-three {
-    background-image: url("uploads/slider_03.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .slider-content-area {
     height: 100vh;
     position: relative;
 }
 
 .home-one-slider-otem .slider-content-area {
-    height: 650px;
+    height: 350px;
     position: relative;
 }
 
@@ -665,7 +662,7 @@ li.social-links a {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 120px 0;
+    padding: 10px 0;
 }
 
 .noover {
@@ -741,7 +738,7 @@ li.social-links a {
 }
 
 .section-title p {
-    color: #999;
+    color: #dcdbdb;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -975,7 +972,7 @@ li.social-links a {
 .testimonial small,
 .testimonial .lead {
     background-color: transparent;
-    color: #aaa;
+    color: #908f8f;
     display: block;
     font-size: 16px;
     font-style: italic;
@@ -1262,7 +1259,7 @@ li.social-links a {
 .service-widget h3 a,
 .section.wb .service-widget h3,
 .section.lb .service-widget h3 {
-    color: #1f1f1f;
+    color: #000000;
 }
 
 .service-widget p {
@@ -1277,7 +1274,7 @@ li.social-links a {
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 15px;
-    color: #999;
+    color: #000000;
 }
 
 .message-box h2 {
@@ -1298,7 +1295,7 @@ li.social-links a {
     padding-top: 10px;
     font-size: 19px;
     font-style: italic;
-    color: #999;
+    color: #000000;
     padding-bottom: 0;
 }
 
