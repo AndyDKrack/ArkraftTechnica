@@ -972,10 +972,9 @@ li.social-links a {
 .testimonial small,
 .testimonial .lead {
     background-color: transparent;
-    color: #908f8f;
+    color: #efecec;
     display: block;
     font-size: 16px;
-    font-style: italic;
     line-height: 30px;
     margin: 0;
     padding: 0;
